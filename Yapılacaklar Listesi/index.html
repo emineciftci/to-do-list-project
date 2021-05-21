@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emine'nin Yapılacaklar Listesi</title>
+    <meta name="keywords" content="todo,list" />
+    <meta name="description" content="Todo List" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? family = Yeni + Tegomin & display = swap" rel="stil sayfası">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Animate Style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Emine'nin Yapılacaklar Listesi
+                    <img src="img/icons8-todo-list.gif" alt="" width="25px" height="25px">
+                </h2>
+                <i id="todo-filter" class="far fa-square"></i>
+            </div>
+            <div class="card-content">
+                <input type="text" id="todo-input" placeholder="Yeni Yapılacak">
+                <button id="todo-button"> <i class="fas fa-plus"></i></button>
+            </div>
+            <div class="card-body">
+                <ul data-filter="0" class="todo-list" id="todo-list">
+                    <!--Data filter='0' tamamlanan tamamlanmayan hepsini gösteriyor-->
+                    <!-- <div class="todo-item todo">
+                        <li>Yemek Yap</li>
+                        <i class="fas fa-square"></i>
+                        <i class="fas fa-trash-alt"></i>
+                    </div> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Swiper JS -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
